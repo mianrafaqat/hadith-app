@@ -1,0 +1,69 @@
+.hadithContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+.hadithWrapper {
+  padding: 32px;
+  background-color: #cbd5e1;
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 24px;
+  max-height: 524px;
+  overflow: auto;
+}
+.hadithWrapper h2 {
+  padding-top: 12px;
+}
+.hadithText {
+}
+
+.hadithText p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #18181b;
+}
+.btnWrapper {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+.scanderyBtn {
+  background: transparent;
+  border: 2px solid #475569;
+  border-radius: 50px;
+  padding: 12px 32px;
+  cursor: pointer;
+  width: 132px;
+}
+.scanderyBtn:disabled {
+  opacity: 0.75;
+  cursor: not-allowed;
+}
+.primaryyBtn {
+  background: #2563eb;
+  color: #fff;
+  border: 0;
+  border-radius: 50px;
+  padding: 12px 32px;
+  cursor: pointer;
+  width: 132px;
+}
+.hadithTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hadithTitle h1 {
+  font-size: 52px;
+  line-height: 62px;
+  color: #090914;
+}
+.hadithTitle button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
